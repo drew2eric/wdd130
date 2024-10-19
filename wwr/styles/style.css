@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a {
     text-align: center;
     color: #fce172;
     text-decoration: none;
+    padding: 35px
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center; 
@@ -20,7 +23,11 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #c8f5ff; 
+    background-color: #c8f5ff;
+    font-size: 22px; 
+    font-family: Rubik, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgba(64, 80, 53, 0.7);
@@ -33,6 +40,10 @@ nav a:hover {
     background-color: #84d9ec;
     color: #134266;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: rgb(170, 155, 106);
@@ -40,22 +51,36 @@ nav a:hover {
 }
 .msg {
     background-color: rgba(0, 118, 148, 0.781);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: rgba(64, 80, 53, 0.7);
-    color: #0a2336
+    color: #0a2336;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
-    color: #134266
+    color: #134266;
+    font-family : "Playwrite DE Grund", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+
 }
 h4 {
     color: #134266
 }
+h2 {
+    margin: 0;
+}
 .msg h2 {
-    color: #134266
+    color: #134266;
+    font-family : "Playwrite DE Grund", Helvetica, sans-serif;
 }
 .msg p {
-    color: #0a2336
+    color: #0a2336;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: #134266;
@@ -69,6 +94,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -79,3 +105,18 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }  
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
