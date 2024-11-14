@@ -186,6 +186,44 @@ nav {
     transform: scale(1.1);
 }
 
+.idaho-card { 
+    grid-column: 1/4;
+    grid-row: 2/5;
+    width: 125%;
+    margin: 50px;
+}
+.utah-card { 
+    grid-column: 1/4;
+    grid-row: 5/8;
+    width: 125%;
+    margin: 50px;
+}
+.arizona-card { 
+    grid-column: 1/4;
+    grid-row: 8/11;
+    width: 125%;
+    margin: 50px;
+}
+.idaho-text {
+    grid-column: 5/11;
+    grid-row: 2/5;
+    margin: 50px;
+}
+.utah-text {
+    grid-column: 5/11;
+    grid-row: 5/8;
+    margin: 50px;
+}
+.arizona-text {
+    grid-column: 5/11;
+    grid-row: 8/11;
+    margin: 50px;
+}
+.arizona-text h2, .utah-text h2, .idaho-text h2 {
+    color: #134266;
+    font-family : "Playwrite DE Grund", Helvetica, sans-serif;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
