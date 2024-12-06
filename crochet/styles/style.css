@@ -10,10 +10,16 @@ nav a {
     text-decoration: none;
     padding: 35px ;
 
+    margin: 4px 2px;
+    opacity: 0.9;
+    transition: 0.3s;
+
 }
 nav a:hover {
     background-color: #E4C0DB;
     color: #282A73;
+    opacity: 1
+    
 }
 body {
     background-color: #C0C999;
